@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+  }
+  #nav{
+    font-family: montserrat;
+  }
+  nav{
+    background: #cea800;
+    height: 80px;
+    width: 100%;
+  }
+  label.logo{
+    color: white;
+    font-size: 45px;
+    font-family: monospace;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav .ul{
+    float: right;
+    margin-right: 20px;
+  }
+  nav .ul .li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav .ul .li .a{
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+  }
+  .a#active,.a:hover{
+    background: #3f3f3f;
+    transition: .5s;
+  }
+  .checkbtn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  @media (max-width: 952px){
+    label.logo{
+      font-size: 23px;
+      padding-left: 50px;
+      font-family: monospace;
+    }
+    nav .ul .li .a{
+      font-size: 16px;
+    }
+  }
+  @media (max-width: 858px){
+    .checkbtn{
+      display: block;
+    }
+    .ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav .ul .li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+    }
+    nav ul li a{
+      font-size: 20px;
+    }
+    .a:hover,.a#active{
+      background: none;
+      color: #0082e6;
+    }
+    #check:checked ~ .ul{
+      left: 0;
+    }
+  }
+  section{
+    background: url(../pics/page44444background.jpg) no-repeat;
+    background-size: cover;
+  
+
+  }
+
+  #top1{
+    color: rgb(168, 168, 168);
+    font-weight: bolder;
+    font-family:monotype-corsiva;
+    font-size: 330%;
+    padding: 2.8%;
+  }
+
+  footer{
+    width: 100%;
+    height:auto;
+    background-color: rgb(41, 41, 41);
+    box-shadow: inset 0 0 8px #918f8f;
+  }
+
+  #foot{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 150%;
+    padding:2%;
+    color: rgb(138, 138, 138);
+  }
+
+  #top2{
+    font-size: 320%;
+    color:goldenrod;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1%;
+    font-weight: bolder;
+  }
+
+  #main{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    margin: 1.3%;
+  }
+
+ #c1{
+   align-items: center;
+   justify-content:center;
+   display: flex;
+   flex-direction: row;
+   box-shadow: inset 0px 0px 30px #ffffff;
+   margin: 2%;
+   width: 80%;
+   border: 5px solid goldenrod;
+   border-radius: 30px;
+   text-decoration: none;
+ } 
+
+ #c1:hover{
+  box-shadow: inset 0px 0px 0px #ffffff;
+  box-shadow: 1px 1px 20px 0px snow;
+  transition: 0.5s;
+ }
+
+ #c1 img{
+   width: 19%;
+   border-radius: 20px;
+ 
+
+ }
+
+ #c1 p{
+   font-size: 140%;
+   font-weight: bolder;
+   font-family: monospace;
+   color: snow;
+   font-style: italic;
+   border: 3px solid grey;
+   border-radius: 20px;
+   padding: 2.5%;
+   align-items: center;
+   text-shadow: 10px 10px 10px  black;
+   box-shadow: inset 0px 0px 10px #000000;
+ }
+
+
+
+
+
+ #c2{
+  align-items: center;
+  justify-content:center;
+  display: flex;
+  flex-direction: row;
+  box-shadow: inset 0px 0px 30px #ffffff;
+  margin: 2%;
+  width: 80%;
+  border: 5px solid goldenrod;
+  border-radius: 30px;
+  text-decoration: none;
+} 
+
+#c2:hover{
+ box-shadow: inset 0px 0px 0px #ffffff;
+ box-shadow: 1px 1px 20px 0px snow;
+ transition: 0.5s;
+}
+
+#c2 img{
+  width: 19%;
+  border-radius: 20px;
+margin: 2.0%;
+
+}
+
+#c2 p{
+  font-size: 140%;
+  font-weight: bolder;
+  font-family: monospace;
+  color: snow;
+  font-style: italic;
+  border: 3px solid grey;
+  border-radius: 20px;
+  padding: 2.5%;
+  align-items: center;
+  text-shadow: 10px 10px 10px  black;
+  box-shadow: inset 0px 0px 10px #000000;
+
+}
