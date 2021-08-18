@@ -99,7 +99,7 @@
   section{
     background: url(pics/page\ 1\ background.jpg) no-repeat;
     background-size: cover;
-  padding-top:80px;
+    margin-top:80px;
   }
 
 
